@@ -46,3 +46,6 @@ print_myname:
 # $ra <- stack
 done:
   jr $ra
+
+
+# ASSIGNMENT IS TO PRINT NAME IN REVERSE
