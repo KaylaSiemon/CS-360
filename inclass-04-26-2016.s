@@ -38,7 +38,11 @@ print_myname:
   #      v0 <- 11?
         syscall
         a0 <- stack
+  # $ra -> stack
 # t0 = t0+1
 # t0 -> stack
 # jal print_myname
 # restore stack
+# $ra <- stack
+done:
+  jr $ra
